@@ -2,6 +2,8 @@
 
 The provided network map done with Cisco Packet Tracer demonstrate and simulate how OSPF protocol work in an enterprise network.
 
+![PacketTracer_OSPF.gif](https://github.com/IT-Support-L2/OSPF/blob/master/PacketTracer_OSPF.gif)
+
 # What is OSPF protocol?
 
 Open Shortest Path First (OSPF) is an IP routing protocol that uses a mathematical algorithm to calculate the most efficient path to direct traffic on IP networks. OSPF is an open standard and designated by the Internet Engineering Task Force (IETF) as one of several Interior Gateway Protocols (IGPs) within the family of TCP/IP protocols.
