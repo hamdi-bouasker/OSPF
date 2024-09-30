@@ -1,6 +1,6 @@
 # Network Map with OSPF
 
-The provided network map done with Cisco Packet Tracer demonstrate how OSPF protocol work.
+The provided network map done with Cisco Packet Tracer demonstrate and simulate how OSPF protocol work in an enterprise network.
 
 # What is OSPF protocol?
 
@@ -16,9 +16,18 @@ All the routers in the same area of the OSPF network maintain the same link-stat
 
 OSPF was designed and developed by the IETF for TCP/IP environments, mainly large enterprise networks. OSPF version 2 is defined in RFC 2328 of the IETF Network Working Group. This protocol is broadly implemented in enterprise routers. IPv6 revisions to this standard are captured in OSPF version 3 and defined in IETF RFC 5340.
 
-## Advantages of Open Shortest Path First
+### Advantages of Open Shortest Path First
+
 There are several benefits to OSPF. One benefit of the OSPF protocol is that all routers in the AS have complete information about the network topology, which allows them to calculate routes that satisfy specific quality of service (QoS) requirements. This feature is particularly advantageous for traffic engineering.
 
 Another benefit is that the routes can be calculated (and recalculated) very quickly when the network topology changes. Another way of saying this is that OSPF results in a shorter convergence time after a network change. For this reason, OSPF is a suitable protocol for large and/or heterogeneous networks where changes happen frequently.
 
 Thirdly, routing traffic can be managed by dividing the AS into multiple areas. Doing so ensures that area topologies are kept separate, which reduces the size of the link-state database of each area as well as traffic, minimizing delays.
+
+Yet another advantage of OSPF is that it supports area routing, a mechanism by which the network topology information within one area of the AS is hidden from routers in other areas. In this way, OSPF provides routing protection and reduces routing traffic.
+
+Finally, OSPF provides equal-cost multipath (ECMP) routing in which traffic with the same source and destination is transmitted across multiple paths of equal cost. ECMP routing helps with traffic load balancing and network bandwidth optimization.
+
+### Drawbacks of Open Shortest Path First
+
+OSPF has a couple of drawbacks. It was developed for large networks, for example, so it is not suitable for small networks. Also, the protocol is more complicated to configure compared to older protocols like RIP.
