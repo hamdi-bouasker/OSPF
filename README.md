@@ -2,6 +2,8 @@
 
 The provided network map done with Cisco Packet Tracer demonstrate and simulate how OSPF protocol work in an enterprise network.
 
+I provided the pkt file to try it on the Cisco Packet Tracer.
+
 ![PacketTracer_OSPF.gif](https://github.com/IT-Support-L2/OSPF/blob/master/PacketTracer_OSPF.gif)
 
 # What is OSPF protocol?
